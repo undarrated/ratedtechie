@@ -835,6 +835,12 @@ footer{
     .awesome-port{
         margin-right: 80px;
     }
+        .my-infor-journey{
+        margin-left: -5px;
+    }
+    .awesome-journey{
+        margin-left: -10px;
+    }
     #works{
         margin-left: -20px;
         height: 800px;
