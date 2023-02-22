@@ -749,7 +749,6 @@ footer{
         margin-left: 230px;
     }
 }
-
 /**Width 414px**/
 
 @media screen and (max-width: 414px) {
@@ -767,14 +766,14 @@ footer{
         margin-left: 40px;
     }
     h5, h2{
-        margin-left: 80px;
+        margin-left: 95px;
     }
     h5{
-        margin-left: 100px;
+        margin-left: 120px;
     }
     #p-about{
         width: 400px;
-        margin-left: -30px;
+        margin-left: -40px;
     }
     #about-icons-div{
         margin-left: -5px;
@@ -788,15 +787,18 @@ footer{
     #journey{
         flex-wrap: wrap;
     }
+    #my-infor-port{
+        padding: 10px;
+    }
     #my-infor{
         margin-bottom: 10px;
-        margin-left: -50px;
+  
     }
     .my-infor{
         margin-left: -10px;
     }
     #federal, #notice{
-        margin-left: -95px;
+        margin-left: -120px;
     }
     .experience{
         margin-left: -235px;
@@ -818,6 +820,126 @@ footer{
     }
     #desktop-title-wm{
         margin-left: -30px;
+    }
+    #desktop-title-ld{
+        width: 350px;
+        margin-left: -50px;
+    }
+    #desktop-parag, #desktop-parag-landing{
+        margin-left: 10px;
+        width: 300px;
+    }
+    .my-infor-port{
+        margin-right: 100px;
+    }
+    .awesome-port{
+        margin-right: 80px;
+    }
+    #works{
+        margin-left: -20px;
+        
+    }
+    #h2-works{
+        margin-left: 5px;
+    }
+    #h5-works{
+        margin-left: 3px;
+    }
+    #button-talk{
+        margin-left: 150px;
+    }
+    .my-infor-FAQ{
+        margin-left: 10px;
+    }
+    .awesome-FAQ{
+        margin-left: -13px;
+    }
+    #footer{
+        margin-top: -10px;
+    }
+    #h2-QS{
+        margin-left: 10px;
+    }
+    #h2-QS-desk{
+        width: 300px;
+        margin-left: 10px;
+    }
+    #QS-mark{
+        margin-left: -25px;
+    }
+    #button-works-last{
+        margin-top: -10px;
+    }
+    #QS{
+        height: 200px;
+    }
+}
+
+/**Width 412px**/
+
+@media screen and (max-width: 412px) {
+    nav{
+        display: none;
+    }
+    #button{
+        margin-left: 200px;
+    }
+    .about-img{
+        margin-left: 30px;
+    }
+    .color{
+        margin-left: -10px;
+    }
+    #about-info{
+        width: 100%;
+        margin-left: 40px;
+    }
+    h5, h2{
+        margin-left: 80px;
+    }
+    h5{
+        margin-left: 100px;
+    }
+    #p-about{
+        width: 400px;
+        margin-left: -30px;
+    }
+    #eduexp{
+        display: none;
+    }
+    #my-infor{
+        margin-bottom: 10px;
+        margin-left: -50px;
+    }
+    .my-infor-journey{
+        margin-left: 70px;
+    }
+    #journey{
+        flex-wrap: wrap;
+    }
+    #federal, #notice{
+        margin-left: -95px;
+    }
+    .experience{
+        margin-left: -235px;
+    }
+    .awesome{
+        margin-left: -20px;
+    }
+    #desktop-real{
+        margin-right: 150px;
+    }
+    #desktop-wrench{
+        margin-left: 110px;
+    }
+    #desktop{
+        margin-left: 100px;
+    }
+    #desktop-title{
+        margin-left: -5px;
+    }
+    #desktop-title-wm{
+        margin-left: -20px;
     }
     #desktop-title-ld{
         width: 350px;
@@ -864,128 +986,6 @@ footer{
     }
     #button-works-last{
         margin-top: -10px;
-    }
-}
-
-/**Width 412px**/
-
-@media screen and (max-width: 412px) {
-    nav{
-        display: none;
-    }
-    #button{
-        margin-left: 200px;
-    }
-    .about-img{
-        margin-left: 30px;
-    }
-    .color{
-        margin-left: -10px;
-    }
-    #about-info{
-        width: 100%;
-        margin-left: 40px;
-    }
-    h5, h2{
-        margin-left: 95px;
-    }
-    h5{
-        margin-left: 120px;
-    }
-    #p-about{
-        width: 400px;
-        margin-left: -40px;
-    }
-    #eduexp{
-        display: none;
-    }
-    #my-infor-port{
-        padding: 10px;
-    }    
-    #my-infor{
-        margin-bottom: 10px;
-    }
-    .my-infor{
-        margin-left: -10px;
-    }
-    #journey{
-        flex-wrap: wrap;
-    }
-    #federal, #notice{
-        margin-left: -120px;
-    }
-    .experience{
-        margin-left: -235px;
-    }
-    .awesome{
-        margin-left: -20px;
-    }
-    #desktop-real{
-        margin-right: 150px;
-    }
-    #desktop-wrench{
-        margin-left: 110px;
-    }
-    #desktop{
-        margin-left: 100px;
-    }
-    #desktop-title{
-        margin-left: -5px;
-    }
-    #desktop-title-wm{
-        margin-left: -20px;
-    }
-    #desktop-title-ld{
-        width: 350px;
-        margin-left: -50px;
-    }
-    #desktop-parag, #desktop-parag-landing{
-        margin-left: 10px;
-        width: 300px;
-    }
-    .my-infor-port{
-        margin-right: 100px;
-    }
-    .awesome-port{
-        margin-right: 80px;
-    }
-    #works{
-        margin-left: -20px;
-        margin-top: -10px;
-    }
-    #h2-works{
-        margin-left: 5px;
-    }
-    #h5-works{
-        margin-left: 3px;
-    }
-    #button-talk{
-        margin-left: 150px;
-    }
-    .my-infor-FAQ{
-        margin-left: 10px;
-    }
-    .awesome-FAQ{
-        margin-left: -13px;
-    }    
-    #footer{
-        margin-top: -10px;
-    }
-    #h2-QS{
-        margin-left: 10px;
-    }
-    #h2-QS-desk{
-        width: 300px;
-        margin-left: 10px;
-    }
-    #QS-mark{
-        margin-left: -25px;
-    }
-    #button-works-last{
-        margin-top: -10px;
-    }
-    #QS{
-        height: 200px;
     }
 }
 
