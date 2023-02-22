@@ -278,7 +278,7 @@ h2{
 
 /**Awesome journey**/
 
-#my-infor, #my-infor-FAQ{
+#my-infor, #my-infor-FAQ, #my-infor-port{
     text-align: center;
     background-color: rgb(231, 231, 231);
     padding: 5px;
@@ -887,21 +887,23 @@ footer{
         margin-left: 40px;
     }
     h5, h2{
-        margin-left: 80px;
+        margin-left: 95px;
     }
     h5{
-        margin-left: 100px;
+        margin-left: 120px;
     }
     #p-about{
         width: 400px;
-        margin-left: -30px;
+        margin-left: -40px;
     }
     #eduexp{
         display: none;
     }
+    #my-infor-port{
+        padding: 10px;
+    }    
     #my-infor{
         margin-bottom: 10px;
-        margin-left: -50px;
     }
     .my-infor{
         margin-left: -10px;
@@ -910,7 +912,7 @@ footer{
         flex-wrap: wrap;
     }
     #federal, #notice{
-        margin-left: -95px;
+        margin-left: -120px;
     }
     .experience{
         margin-left: -235px;
@@ -942,10 +944,10 @@ footer{
         width: 300px;
     }
     .my-infor-port{
-        margin-right: 60px;
+        margin-right: 100px;
     }
     .awesome-port{
-        margin-right: 40px;
+        margin-right: 80px;
     }
     #works{
         margin-left: -20px;
@@ -961,8 +963,11 @@ footer{
         margin-left: 150px;
     }
     .my-infor-FAQ{
-        margin-left: 48px;
+        margin-left: 10px;
     }
+    .awesome-FAQ{
+        margin-left: -13px;
+    }    
     #footer{
         margin-top: -10px;
     }
@@ -978,6 +983,9 @@ footer{
     }
     #button-works-last{
         margin-top: -10px;
+    }
+    #QS{
+        height: 200px;
     }
 }
 
