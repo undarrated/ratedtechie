@@ -788,7 +788,7 @@ footer{
         flex-wrap: wrap;
     }
     #my-infor-port{
-        padding: 10px;
+        padding: 20px;
     }
     #my-infor{
         margin-bottom: 10px;
@@ -837,7 +837,7 @@ footer{
     }
     #works{
         margin-left: -20px;
-        
+        height: 800px;
     }
     #h2-works{
         margin-left: 5px;
