@@ -1016,6 +1016,15 @@ footer{
     #federal, #notice{
         margin-left: 10px;
     }
+    .my-infor-journey{
+        margin-left: 30px;
+    }
+    .awesome-journey{
+        margin-left: 50px;
+    }
+    .awesome-FAQ{
+        margin-left: 40px;
+    }
 }
 
 /**Width 390px**/
@@ -1031,7 +1040,13 @@ footer{
         margin-left: 100px;
     }
     #p-about{
-        margin-left: -45px;
+        margin-left: 100px;
+    }
+    .my-infor-journey{
+        margin-left: -10px;
+    }
+    .awesome-journey{
+        margin-left: 100px;
     }
     #my-infor{
         margin-left: -10px;
@@ -1042,33 +1057,11 @@ footer{
     #federal, #notice{
         margin-left: 10px;
     }
-}
-
-/**Width 375px**/
-
-@media screen and (max-width: 375px) {
-    #p-about{
-        margin-left: -50px;
-    }
-    #comma{
+    .my-infor-FAQ{
         margin-left: -20px;
     }
-    #about-icons-div-2{
-        margin-left: -10px;
-    }
-    #works{
-        margin-left: -30px;
-    }
-    #button-talk{
-        margin-left: 140px;
-    }
-    .my-infor-FAQ{
-        margin-left: -5px;
-    }
-    .awesome-FAQ{
-        margin-left: 20px;
-    }
 }
+
 
 /**Width 390px**/
 
@@ -1112,6 +1105,71 @@ footer{
     }
     #h2-QS{
         width: 250px;
+
     }
        
+}
+
+/**Width 375px/812**/
+
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    
+}
+
+/**Width 375px**/
+
+@media screen and (max-width: 375px) {
+    .p-about{
+        margin-left: -50px;
+    }
+    #comma{
+        margin-left: -20px;
+    }
+    #about-icons-div-2{
+        margin-left: -10px;
+    }
+    .my-infor-journey{
+        margin-left: -10px;
+    }
+    .awesome-journey{
+        margin-left: 100px;
+    }
+    #works{
+        margin-left: -30px;
+    }
+    #button-talk{
+        margin-left: 140px;
+    }
+    .my-infor-FAQ{
+        margin-left: -5px;
+    }
+    .awesome-FAQ{
+        margin-left: 40px;
+    }
+}
+
+/**Width 360px**/
+
+@media screen and (max-width: 360px) and (max-height: 640px) {
+    .journey, #works, #my-infor-port, #my-infor, #footer, footer{
+        width: 450px;
+    }
+    #h2-works{
+        width: 100px;
+    }
+    fieldset{
+        margin-left: -100px;
+    }
+    #socials-first{
+        margin-left: -55px;
+    }
+    .my-infor-FAQ{
+        margin-left: -80px;
+    }
+    .awesome-FAQ{
+        margin-left: 40px;
+    }
+    section{
+        width: 400px;
+    }
 }
