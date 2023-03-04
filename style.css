@@ -118,7 +118,7 @@ p{
     border-radius: 20px;
     width: 100px;
     margin-bottom: 40px;
-    margin-left: 400px;
+    margin: auto;
     text-align: center;
     color: orangered;
     padding: 10px;
@@ -433,7 +433,7 @@ font-style: italic;
     border-radius: 10px;
     width: 80px;
     margin-bottom: 40px;
-    margin-left: 630px;
+    margin: auto;
     padding: 5px;
     text-align: center;
     color: orangered;
@@ -749,6 +749,7 @@ footer{
         margin-left: 230px;
     }
 }
+
 /**Width 414px**/
 
 @media screen and (max-width: 414px) {
@@ -756,109 +757,49 @@ footer{
         display: none;
     }
     #button{
-        margin-left: 180px;
+        margin: 20px auto;
+    }
+    #about-div{
+        width: 350px;
     }
     .about-img{
-        margin-left: 30px;
-    }
-    #about-info{
-        width: 100%;
-        margin-left: 40px;
-    }
-    h5, h2{
-        margin-left: 95px;
-    }
-    h5{
-        margin-left: 120px;
+        align-self: center;
+        width: 200px;
     }
     #p-about{
-        width: 400px;
-        margin-left: -40px;
+        width: 350px;
     }
-    #about-icons-div{
-        margin-left: -5px;
+    #comma{
+        margin-left: -20px;
     }
     .color{
+        margin-left: -20px;
         width: 400px;
+    }
+    #about-icons-div{
+        margin-left: -10px;
     }
     #eduexp{
         display: none;
     }
     #journey{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     #my-infor-port{
-        padding: 20px;
+        text-align: center;
+        padding: 10px;
     }
     #my-infor{
         margin-bottom: 10px;
-  
-    }
-    .my-infor{
-        margin-left: -10px;
-    }
-    #federal, #notice{
-        margin-left: -120px;
     }
     .experience{
         margin-left: -235px;
     }
-    .awesome{
-        margin-left: -20px;
-    }
-    #desktop-real{
-        margin-right: 150px;
-    }
-    #desktop-wrench{
-        margin-left: 100px;
-    }
-    #desktop{
-        margin-left: 100px;
-    }
-    #desktop-title{
-        margin-left: -5px;
-    }
-    #desktop-title-wm{
-        margin-left: -30px;
-    }
-    #desktop-title-ld{
-        width: 350px;
-        margin-left: -50px;
-    }
-    #desktop-parag, #desktop-parag-landing{
-        margin-left: 10px;
-        width: 300px;
-    }
-    .my-infor-port{
-        margin-right: 100px;
-    }
-    .awesome-port{
-        margin-right: 80px;
-    }
-        .my-infor-journey{
-        margin-left: -5px;
-    }
-    .awesome-journey{
-        margin-left: -10px;
-    }
     #works{
-        margin-left: -20px;
         height: 800px;
     }
-    #h2-works{
-        margin-left: 5px;
-    }
-    #h5-works{
-        margin-left: 3px;
-    }
     #button-talk{
-        margin-left: 150px;
-    }
-    .my-infor-FAQ{
-        margin-left: 10px;
-    }
-    .awesome-FAQ{
-        margin-left: -13px;
+        margin: auto;
     }
     #footer{
         margin-top: -10px;
@@ -887,97 +828,11 @@ footer{
     nav{
         display: none;
     }
-    #button{
-        margin-left: 200px;
-    }
-    .about-img{
-        margin-left: 30px;
-    }
-    .color{
-        margin-left: -10px;
-    }
-    #about-info{
-        width: 100%;
-        margin-left: 40px;
-    }
-    h5, h2{
-        margin-left: 80px;
-    }
-    h5{
-        margin-left: 100px;
-    }
-    #p-about{
-        width: 400px;
-        margin-left: -30px;
-    }
     #eduexp{
         display: none;
     }
-    #my-infor{
-        margin-bottom: 10px;
-        margin-left: -50px;
-    }
-    .my-infor-journey{
-        margin-left: 70px;
-    }
-    #journey{
-        flex-wrap: wrap;
-    }
-    #federal, #notice{
-        margin-left: -95px;
-    }
-    .experience{
-        margin-left: -235px;
-    }
-    .awesome{
-        margin-left: -20px;
-    }
-    #desktop-real{
-        margin-right: 150px;
-    }
-    #desktop-wrench{
-        margin-left: 110px;
-    }
-    #desktop{
-        margin-left: 100px;
-    }
-    #desktop-title{
-        margin-left: -5px;
-    }
-    #desktop-title-wm{
-        margin-left: -20px;
-    }
-    #desktop-title-ld{
-        width: 350px;
-        margin-left: -50px;
-    }
-    #desktop-parag, #desktop-parag-landing{
-        margin-left: 10px;
-        width: 300px;
-    }
-    .my-infor-port{
-        margin-right: 60px;
-    }
-    .awesome-port{
-        margin-right: 40px;
-    }
     #works{
         margin-left: -20px;
-        margin-top: -10px;
-    }
-    #h2-works{
-        margin-left: 5px;
-    }
-    #h5-works{
-        margin-left: 3px;
-    }
-    #button-talk{
-        margin-left: 150px;
-    }
-    .my-infor-FAQ{
-        margin-left: 48px;
-    }
-    #footer{
         margin-top: -10px;
     }
     #h2-QS{
@@ -995,181 +850,25 @@ footer{
     }
 }
 
-/**Width 393px**/
-
-@media screen and (max-width: 393px) {
-    h5{
-        margin-left: 2px;
-    }
-    #button{
-        margin-left: 170px;
-    }
-    .h5-about-me{
-        margin-left: 100px;
-    }
-    #p-about{
-        margin-left: -45px;
-    }
-    .color{
-        margin-left: -20px;
-    }
-    #federal, #notice{
-        margin-left: 10px;
-    }
-    .my-infor-journey{
-        margin-left: 30px;
-    }
-    .awesome-journey{
-        margin-left: 50px;
-    }
-    .awesome-FAQ{
-        margin-left: 40px;
-    }
-}
-
-/**Width 390px**/
-
-@media screen and (max-width: 390px) {
-    h5{
-        margin-left: 2px;
-    }
-    #button{
-        margin-left: 170px;
-    }
-    .h5-about-me{
-        margin-left: 100px;
-    }
-    #p-about{
-        margin-left: 100px;
-    }
-    .my-infor-journey{
-        margin-left: -10px;
-    }
-    .awesome-journey{
-        margin-left: 100px;
-    }
-    #my-infor{
-        margin-left: -10px;
-    }
-    .color{
-        margin-left: -20px;
-    }
-    #federal, #notice{
-        margin-left: 10px;
-    }
-    .my-infor-FAQ{
-        margin-left: -20px;
-    }
-}
-
-
-/**Width 390px**/
-
-@media screen and (max-width: 390px) {
-    h2{
-        width: 200px;
-    }
-    #p-about{
-        margin-left: -60px;
-    }
-    #about-icons-div{
-        margin-left: -15px;
-    }
-    #about-icons-div-2{
-        margin-left: -20px;
-    }
-    .awesome{
-        margin-left: 80px;
-    }
-    #desktop-title-ld{
-        margin-left: -20px;
-    }
-    #span{
-        margin-left: 30px;
-    }
-    #works{
-        margin-left: -35px;
-    }
-    #text-works{
-        margin-left: 4px;
-    }
-    #p-works{
-        width: 150px;
-    }
-    .awesome-FAQ{
-        margin-left: 30px;
-        width: 300px;
-    }
-    #button-talk{
-        margin-left: 130px;
-    }
-    #h2-QS{
-        width: 250px;
-
-    }
-       
-}
-
-/**Width 375px/812**/
-
-@media screen and (max-width: 375px) and (max-height: 812px) {
-    
-}
-
 /**Width 375px**/
 
 @media screen and (max-width: 375px) {
-    .p-about{
-        margin-left: -50px;
-    }
-    #comma{
-        margin-left: -20px;
-    }
     #about-icons-div-2{
         margin-left: -10px;
-    }
-    .my-infor-journey{
-        margin-left: -10px;
-    }
-    .awesome-journey{
-        margin-left: 100px;
-    }
-    #works{
-        margin-left: -30px;
-    }
-    #button-talk{
-        margin-left: 140px;
-    }
-    .my-infor-FAQ{
-        margin-left: -5px;
-    }
-    .awesome-FAQ{
-        margin-left: 40px;
     }
 }
 
 /**Width 360px**/
 
 @media screen and (max-width: 360px) and (max-height: 640px) {
-    .journey, #works, #my-infor-port, #my-infor, #footer, footer{
+    .journey, #my-infor-port, #my-infor, #footer, footer{
         width: 450px;
     }
-    #h2-works{
-        width: 100px;
+    #works{
+        width: 465px;
     }
-    fieldset{
-        margin-left: -100px;
-    }
-    #socials-first{
-        margin-left: -55px;
-    }
-    .my-infor-FAQ{
-        margin-left: -80px;
-    }
-    .awesome-FAQ{
-        margin-left: 40px;
-    }
-    section{
-        width: 400px;
+    #my-infor-updates{
+        margin: auto;
+        width: 420px;
     }
 }
