@@ -81,14 +81,17 @@ section{
     display: flex;
     flex-direction: row;
     background-color: rgb(231, 231, 231);
+    
+ 
 }
 .intro-div{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
 }
-#intro-div{
-    margin-left: 170px;
-    margin-top: 100px;
-}
+
 h5, .h5-about-me{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -113,6 +116,10 @@ p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style:normal;
     font-size: small;
+}
+.hire{
+    display: flex;
+    justify-content: center;
 }
 #button{
     border: 1px solid orangered;
@@ -158,9 +165,7 @@ h4{
 .about-info{
     width: 50%;
 }
-#about-info{
-    margin-top: 30px;
-}
+
 h2{
     margin-top: -20px;
     color: rgb(14, 14, 43);
@@ -189,7 +194,7 @@ h2{
     justify-content: space-around;
 }
 #comma{
-    margin-right: 30px;
+    margin-right: 8px;
 }
 .h2{
     display: flex;
@@ -218,108 +223,136 @@ h2{
 .color{
     color: rgb(112, 110, 110);
 }
-#journey{
-    display: flex;
-    flex-direction: row;
-    margin-left: 250px;
-}
-#eduexp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 10px;
-    background-color: rgb(231, 231, 231);
-}
-#education-title{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-   
-}
-#education-title-icon{
-    font-size: 30px;
-    margin-top: -20px;
-    margin-right: 10px;
-    
-}
-#education{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-.education{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-}
-#experience{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-.edu-text{
-    display: flex;
-    flex-direction: column;
-}
-.further{
-    display: flex;
-    flex-direction: row;
-}
+
 .pointer,.pointer-exp{
     display: flex;
     flex-direction: column;
 }
 .line{
    background-color: orangered;
-   height: 70px;
+   height: 90px;
    width: 2px;
    margin-left: 6px;
    margin-top: -1px;
 }
-
+.lineone{
+    background-color: orangered;
+    height: 124px;
+    width: 2px;
+    margin-left: 6px;
+    margin-top: -1px;  
+}
+.linetwo{
+    background-color: orangered;
+    height: 120px;
+    width: 2px;
+    margin-left: 6px;
+    margin-top: -1px;   
+}
+.linethree{
+    background-color: orangered;
+    height: 75px;
+    width: 2px;
+    margin-left: 6px;
+    margin-top: -1px;   
+}
 /**Awesome journey**/
-
+#eduexp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(231, 231, 231);
+    
+}
+.edu-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+#education-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#education-title-icon{
+    font-size: 30px;
+    margin: 10px;   
+}
+#education-title-text, h2{
+    margin: 0;
+}
+#journey{
+    width: 80%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;  
+}
+.journey{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 20px;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    
+}
+.exp-exp{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.experience{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
 #my-infor, #my-infor-FAQ, #my-infor-port{
     text-align: center;
     background-color: rgb(231, 231, 231);
     padding: 5px;
 }
-.journey{
-    margin-top: -20px;
+#math, h3{
+    margin: 0;
 }
 #math, #math-exp{
-    width: 400px;
-    margin-top: 20px;
-    font-size: large;
-    margin-left: -70px;
+    font-size: large; 
+}
+
+.further{
+    display: flex;
+    flex-direction: row;
 }
 #federal{
-    margin-top: -40px;
-    margin-left: 10px;
     font-size: 15px;
     font-family:'Courier New', Courier, monospace;
     font-style: italic;
 }
 .federal{
-font-family:'Courier New', Courier, monospace;
-font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;  
 }
-#calendar{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 5px;
+#calendar{  
     font-size: 13px;
 }
 #notice{
-    font-size: 13px;
-    margin-top: 5px;
+    font-size: 13px; 
+    margin-top: -15px;
+    margin-left: 3px;
 }
-.experience{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-left: 320px;
-}
+
 
 /**My Services**/
 
@@ -333,65 +366,56 @@ font-style: italic;
     display: flex;
     flex-direction: row;
     background-color: white;
-    
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .services, .services-second, .services-last{
     display: flex;
     flex-direction: column;
-    margin: 5px 100px;
+    margin: 10px;
 }
-#desktop, #desktop-real, #desktop-wrench{
-    font-size: 50px;
-    margin-left: 100px;
+
+#desktop-real{
+    display: flex;
+    flex-direction: row;
 }
-#desktop-title{
-    margin-left: 90px;
-    margin-top: 13px;
-}
-#desktop-parag, #desktop-parag-landing{
+
+#desktop-parag{
     color: rgb(112, 110, 110);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    margin-top: -20px;
     width: 250px;
 }
-#desktop-title-ld{
-    margin-left: 20px;
-    margin-top: 13px;
-    width: 250px;
+#solid{
+    font-size: 20px;
+    margin: 5px;
 }
-#desktop-title-wm{
-    margin-left: 60px;
-    margin-top: 13px;
+#desktop-title, #desktop-title-wm, #desktop-title-ld{
+    margin: 5px;
 }
+
 
 /**My Portfolio**/
 
 #works{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 #container-works{
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
-}
-#h5-works{
-    font-size: 30px;
-    margin-top: -1px;
-}
-#h2-works{
-    margin-top: -50px;
+    height: 250px;
 }
 #p-works{
     color: rgb(112, 110, 110);
-    margin-top: -10px;
 }
 #text-works{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin: 20px;
+}
+.main{
+    margin: 0;
 }
 #button-works, #button-works-last{
     border: 1px solid orangered;
@@ -410,43 +434,39 @@ font-style: italic;
 #container-works-ps{
     display: flex;
     flex-direction: row;
-    margin-left: 800px;
-    margin-top: -150px;
+    justify-content: flex-end;
+    height: 250px;
+    
 }
 #container-works-mc{
     display: flex;
     flex-direction: row;
-    margin-top: -150px;
-    margin-left: 40px;
-    height: 230px;
+    height: 250px;
 }
 
 /**Lets Work**/
 
 #my-infor-updates{
     text-align: center;
-    background-color: rgb(231, 231, 231);
-    padding: 5px;
     background-color: white;
+    
 }
 #button-talk{
     border: 1px solid orangered;
     border-radius: 10px;
     width: 80px;
     margin-bottom: 40px;
-    margin: auto;
     padding: 5px;
-    text-align: center;
     color: orangered;
+    margin: auto;
 }
 #button-talk:hover{
     background-color: orangered;
     color: white;
 }
 #back{
-    float: right;
-    margin-top: -40px;
-    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 #back:hover{
     color: orangered;
@@ -458,24 +478,32 @@ fieldset{
     border-color: rgb(14, 14, 43);
     width: 300px;
     height: 180px;
+    margin: 20px;
+}
+#QS{
+    margin: 20px;
 }
 #QS-title{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
-#h2-QS, #h2-QS-desk{
-    margin-top: 5px;
+#QS-title-lst{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+}
+.divv{
+    margin-left: 90px;
 }
 #QS-mark{
-    margin-left: 5px;
     font-size: 25px;
-    margin-top: 2px;
 }
 #hr-QS{
     background-color: orangered;
     width: 200px;
     height: 1px;
-    margin-top: -10px;
 }
 
 /**Frequently Asked Question**/
@@ -485,10 +513,16 @@ fieldset{
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
+    flex-wrap: wrap;
 }
-.p-footer{
+#p-footer{
+    width: 400px;
     color: rgb(112, 110, 110);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
 }
+
 #button-mail{
     border: 1px solid orangered;
     border-radius: 10px;
@@ -504,33 +538,22 @@ fieldset{
     color: white;
 }
 #QS-usd{
-    margin-left: 8px;
-    font-size: 25px;
-    margin-top: 4px;
+    font-size: 25px;   
 }
 #hr-usd{
     background-color: orangered;
-    width: 200px;
+    width: 210px;
     height: 1px;
-    margin-top: -10px;
-    margin-left: 40px;
 }
-#h2-circle{
-    margin-top: 5px;
-    margin-left: 70px;
-}
+
 #hr-circle{
     background-color: orangered;
     width: 170px;
     height: 1px;
-    margin-top: -10px;
-    margin-left: 60px;
 }
 #QS-circle{
     font-size: 25px;
-    margin-top: 4px;
 }
-
 
 /**footer**/
 
@@ -543,333 +566,98 @@ footer{
 }
 #socials, #socials-first{
     font-size: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 15px;
 }
 
-/**Width 1115px**/
+/**Width 854px**/
 
-@media screen and (max-width: 1115px) {
-    .about-img{
-        margin-left: -100px;
-    }
-    #button{
-        margin-left: 250px;
-    }
-    .experience{
-        margin-left: 220px;
-    }
-    .education{
-        margin-left: -80px;
-
-    }
-    #services{
-        margin-left: -80px;
-    }
-    .services-second{ 
-        margin: 5px 50px;
-    }
-    #container-works-ps{
-        margin-left: 500px;
-    }
-    #button-talk{
-        margin-left: 500px;
-    }
-}   
-/**Width 1000px**/
-
-@media screen and (max-width: 1000px) {
-    .experience{
-        margin-left: 120px;
-    }
-    .services-second{ 
-        margin: 5px 2px;
-    }
-    #container-works-ps{
-        margin-left: 350px;
-    }
-    #button-talk{
-        margin-left: 450px;
-    }
+@media screen and (max-width: 854px) {
+     .line{
+        height: 120px;
+     }
+     .lineone{
+        height: 140px;
+     }
+     .linetwo{
+        height: 140px;
+     }
 }
+/**Width 830px**/
 
-/**Width 965px**/
-
-@media screen and (max-width: 965px) {
-    .intro-div{
-        margin-left: -50px;
-    }
-    .services-second{     
-        margin: 5px -30px;
-    }
-    h3{
-        margin-left: -1px;
-    }
-}
-/**Width 964px**/
-
-@media screen and (max-width: 964px) {
-    #math{
-        margin-top: -5px;
-    }
-    #eduexp{
-        margin-bottom: 20px;
-    }
-    #federal{
-        margin-top: -25px;
-    }
-    .education{
-        margin-bottom: 20px;
-    }
-}
-
-/**Width 912px**/
-
-@media screen and (max-width: 912px) {
-    #services{     
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .services-last{
-        margin-left: 200px;
-    }
-    .services-second{
-        margin-right: 20px;
-    }
-    #footer{
-        flex-wrap: wrap;
-    }
-    fieldset{
-        margin-bottom: 20px;
-    }
-    #math-exp{
-        margin-left: -10px;
-        margin-top: -5px;
-    }
-    #button-talk{
-        margin-left: 400px;
-    }
-}
-
-/**Width 828px**/
-
-@media screen and (max-width: 828px) {
-    .experience{
-        margin-left: 130px;
-    }
-    #math-exp{
-        margin-left: -10px;
-        margin-top: -5px;
-    }
-    #math{
-        margin-left: -5px;
-    }
-    .pointer{
-        margin-left: -100px;
-    }
-    .services-second{     
-        margin: 5px -80px;
-    }
-    #desktop-title{
-        margin-left: 70px;
-    }
-    #button-talk{
-        margin-left: 350px;
-    }
-    #footer{
-        flex-wrap: wrap;
-    }
-    fieldset{
-        margin-bottom: 20px;
-    }
-}
-
-/**Width 768px**/
-
-@media screen and (max-width: 768px) {
-    #intro-div{
-        margin-left: 100px;
+@media screen and (max-width: 830px) {
+    #about-div{
+        display: flex;
+        flex-direction: column;
     }
     .about-img{
-        margin-left: -100px;
+        display: flex;
+        align-self: center;
+        
+    }
+    #second-img{
+        margin: 10px;
     }
     .about-info{
-        margin-left: 20px;
-    }
-    #math-exp{
-        margin-left: -10px;
-    }
-    .experience{
-        margin-left: 50px;
-    }
-    #services{     
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .services-last{
-        margin-left: 200px;
-    }
-    .services-second{
-        margin-right: 20px;
+        width: 80%;
+        text-align: center;
+        margin: 10px;
+        align-self: center;
     }
 }
+/**Width 624px**/
 
+@media screen and (max-width: 624px) {
+    .line{
+       height: 130px;
+    }
+    .lineone{
+       height: 155px;
+    }
+    .linetwo{
+       height: 155px;
+    }
+}
 /**Width 540px**/
 
 @media screen and (max-width: 540px) {
     .img-intro-div{
         display: none;
     }
-    .intro-div{
-        margin-left: -40px;
-        width: 100%;
+    nav{
+        display: none;
     }
     br{
         display: none;
     }
-    #about-div{
-        display: flex;
-        flex-direction: column;
-    }
-    #education{
-        margin-left: -55px;
-    }
-    .experience{
-        margin-left: -100px;
-    }
-    .services{
-        margin-left: 200px;
-    }
-    .services-second{
-        margin-left: 120px;
-    }
-    #container-works-ps{
-        margin-left: 40px;
-    }
-    #button-talk{
-        margin-left: 230px;
+    .intro-div{
+        width: 100%;
     }
 }
+/**Width 538px**/
 
+@media screen and (max-width: 538px) {
+    .line{
+        height: 145px;
+    }
+}
+/**Width 538px**/
+
+@media screen and (max-width: 538px) {
+    .linethree{
+        height: 100px;
+    }
+}
+/**Width 524px**/
+
+@media screen and (max-width: 524px) {
+    .linethree{
+        height: 120px;
+    }
+}
 /**Width 414px**/
 
 @media screen and (max-width: 414px) {
-    nav{
-        display: none;
-    }
-    #button{
-        margin: 20px auto;
-    }
-    #about-div{
-        width: 350px;
-    }
-    .about-img{
-        align-self: center;
-        width: 200px;
-    }
-    #p-about{
-        width: 350px;
-    }
-    #comma{
-        margin-left: -20px;
-    }
-    .color{
-        margin-left: -20px;
-        width: 400px;
-    }
-    #about-icons-div{
-        margin-left: -10px;
-    }
     #eduexp{
         display: none;
-    }
-    #journey{
-        flex-direction: column;
-    }
-    #my-infor-port{
-        text-align: center;
-        padding: 10px;
-    }
-    #my-infor{
-        margin-bottom: 10px;
-    }
-    .experience{
-        margin-left: -235px;
-    }
-    #works{
-        height: 800px;
-    }
-    #button-talk{
-        margin: auto;
-    }
-    #footer{
-        margin-top: -10px;
-    }
-    #h2-QS{
-        margin-left: 10px;
-    }
-    #h2-QS-desk{
-        width: 300px;
-        margin-left: 10px;
-    }
-    #QS-mark{
-        margin-left: -25px;
-    }
-    #button-works-last{
-        margin-top: -10px;
-    }
-    #QS{
-        height: 200px;
-    }
-}
-
-/**Width 412px**/
-
-@media screen and (max-width: 412px) {
-    nav{
-        display: none;
-    }
-    #eduexp{
-        display: none;
-    }
-    #works{
-        margin-left: -20px;
-        margin-top: -10px;
-    }
-    #h2-QS{
-        margin-left: 10px;
-    }
-    #h2-QS-desk{
-        width: 300px;
-        margin-left: 10px;
-    }
-    #QS-mark{
-        margin-left: -25px;
-    }
-    #button-works-last{
-        margin-top: -10px;
-    }
-}
-
-/**Width 375px**/
-
-@media screen and (max-width: 375px) {
-    #about-icons-div-2{
-        margin-left: -10px;
-    }
-}
-
-/**Width 360px**/
-
-@media screen and (max-width: 360px) and (max-height: 640px) {
-    .journey, #my-infor-port, #my-infor, #footer, footer{
-        width: 450px;
-    }
-    #works{
-        width: 465px;
-    }
-    #my-infor-updates{
-        margin: auto;
-        width: 420px;
     }
 }
