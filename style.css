@@ -204,6 +204,7 @@ h2{
     display: flex;
     flex-direction: row;
     margin-top: -8px;
+    flex-wrap: wrap;
 }
 #icon-div-2{
     display: flex;
@@ -223,7 +224,9 @@ h2{
 .color{
     color: rgb(112, 110, 110);
 }
-
+.color-1{
+    color: rgb(112, 110, 110);
+}
 .pointer,.pointer-exp{
     display: flex;
     flex-direction: column;
@@ -374,6 +377,7 @@ h2{
 .services, .services-second, .services-last{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 10px;
 }
 
@@ -479,7 +483,7 @@ fieldset{
     border-radius: 10px;
     border-color: rgb(14, 14, 43);
     width: 300px;
-    height: 180px;
+    
     margin: 20px;
 }
 #QS{
@@ -494,11 +498,9 @@ fieldset{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 200px;
+    
 }
-.divv{
-    margin-left: 90px;
-}
+
 #QS-mark{
     font-size: 25px;
 }
@@ -518,7 +520,7 @@ fieldset{
     flex-wrap: wrap;
 }
 #p-footer{
-    width: 400px;
+    
     color: rgb(112, 110, 110);
     margin: auto;
     margin-top: 10px;
@@ -529,11 +531,11 @@ fieldset{
     border: 1px solid orangered;
     border-radius: 10px;
     width: 80px;
-    margin-bottom: 40px;
+    
     padding: 5px;
     text-align: center;
     color: orangered;
-    margin-left: 100px;
+    
 }
 #button-mail:hover{
     background-color: orangered;
@@ -606,6 +608,22 @@ footer{
         align-self: center;
     }
 }
+/**Width 700px**/
+
+@media screen and (max-width: 700px) {
+    .img-intro-div{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    br{
+        display: none;
+    }
+    .intro-div{
+        width: 100%;
+    }
+}
 /**Width 624px**/
 
 @media screen and (max-width: 624px) {
@@ -622,18 +640,6 @@ footer{
 /**Width 540px**/
 
 @media screen and (max-width: 540px) {
-    .img-intro-div{
-        display: none;
-    }
-    nav{
-        display: none;
-    }
-    br{
-        display: none;
-    }
-    .intro-div{
-        width: 100%;
-    }
     .exp-exp{
         height: 390px;
     }
@@ -664,6 +670,14 @@ footer{
 @media screen and (max-width: 414px) {
     #eduexp{
         display: none;
+    }
+
+}
+/**Width 377px**/
+
+@media screen and (max-width: 377px) {
+    #works{
+        height: 800px;
     }
 
 }
